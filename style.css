@@ -1,0 +1,92 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadein 0.5s;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  // background-color: #ebebeb;
+}
+
+#todo-form {
+  width: 100%;
+}
+
+#todo-form input {
+  margin-bottom: 20px;
+}
+
+#todo-form input[type="text"] {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background-color: #c9c9c9;
+  font-size: 24px;
+}
+
+#todo-form input[type="text"]:focus {
+  outline: 0;
+}
+
+#todo-form input[type="submit"] {
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+}
+
+#todo-form input[type="submit"]:hover {
+  background-color: #a7a7a7;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ebebeb;
+  margin-bottom: 15px;
+}
+
+#todo-list li p {
+  font-size: 24px;
+  margin-left: 15px;
+  float: left;
+}
+
+#todo-list li button {
+  display: block;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  float: right;
+  margin-right: 10px;
+}
+
+#todo-list li button:focus {
+  outline: 0;
+}
+
+#todo-list li button:hover {
+  background-color: #cc2211;
+}
+
+.clearfix {
+  clear: both;
+}
